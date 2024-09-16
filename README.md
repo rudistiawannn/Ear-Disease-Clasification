@@ -37,21 +37,21 @@ By leveraging advanced machine learning techniques, this research seeks to addre
     <td><img src="https://github.com/rudistiawannn/Ear-Disease-Clasification/blob/main/Ear%20Disease%20Dataset%20Sample/Normal/N1.jpg" width="250"></td>
     <td><img src="https://github.com/rudistiawannn/Ear-Disease-Clasification/blob/main/Ear%20Disease%20Dataset%20Sample/Otitis%20Media%20with%20Effusion/2017-03-03T20-47-26.jpg" width="250"></td>
     <td><img src="https://github.com/rudistiawannn/Ear-Disease-Clasification/blob/main/Ear%20Disease%20Dataset%20Sample/Otomycosis/2016-10-26T18-51-26.png" width="250"></td>
-    <td><img src="https://github.com/rudistiawannn/Ear-Disease-Clasification/blob/main/Ear%20Disease%20Dataset%20Sample/Otomycosis/2016-10-26T18-51-26.png" width="250"></td>
+    <td><img src="https://github.com/rudistiawannn/Ear-Disease-Clasification/blob/main/Ear%20Disease%20Dataset%20Sample/Tympanic%20Membrane%20Perforation/2016-11-30T19-56-04.jpg" width="250"></td>
     <td><img src="https://github.com/rudistiawannn/Ear-Disease-Clasification/blob/main/Ear%20Disease%20Dataset%20Sample/Tympanosclerosis/2016-10-26T19-33-36%20-%20Copy.png" width="250"></td>
   </tr>
   <tr>
-    <td align="center">Acute Otitis Media Hypermic</td>
-    <td align="center">Acute Otitis Media Perforation</td>
-    <td align="center">Acute Otitis Media Resolution</td>
-    <td align="center">Acute Otitis Media Suppuration</td>
-    <td align="center">Acute Media Turbal Occlusion</td>
+    <td align="center">Acute Otitis Media - Hypermic</td>
+    <td align="center">Acute Otitis Media - Perforation</td>
+    <td align="center">Acute Otitis Media - Resolution</td>
+    <td align="center">Acute Otitis Media - Suppuration</td>
+    <td align="center">Acute Otitis Media - Turbal Occlusion</td>
     <td align="center">Aerotitis Barotrauma</td>
     <td align="center">Bullos Myringitis</td>
     <td align="center">Cerumen</td>
-    <td align="center">Chronic Suppurative Otitis Media Resolution</td>
-    <td align="center">Chronic Suppurative Otitis Media Safe Type</td>
-    <td align="center">Chronic Suppurative Otitis Media Unsafe Type</td>
+    <td align="center">Chronic Suppurative Otitis Media - Resolution</td>
+    <td align="center">Chronic Suppurative Otitis Media - Safe Type</td>
+    <td align="center">Chronic Suppurative Otitis Media - Unsafe Type</td>
     <td align="center">Corpus Alienum</td>
     <td align="center">Diffuse Exterenal Otitis</td>
     <td align="center">Furuncular External Otitis</td>
@@ -59,7 +59,7 @@ By leveraging advanced machine learning techniques, this research seeks to addre
     <td align="center">Normal</td>
     <td align="center">Otitis Media with Effusion</td>
     <td align="center">Otomycosis</td>
-    <td align="center">Otomycosis</td>
+    <td align="center">Tympanic Membrane Perforation</td>
     <td align="center">Tympanosclerosis</td>
 
   </tr>
