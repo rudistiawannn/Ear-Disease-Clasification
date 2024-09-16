@@ -110,6 +110,19 @@ The hyperparameter search for MobileNet-V2 resulted in the best hyperparameters 
 | Dropout Rate       | 0.2                         |
 | Learning Rate      | 0.003103753471420176        |
 
+<table>
+  <tr>
+    <td><img src="https://github.com/rudistiawannn/Ear-Disease-Clasification/blob/main/Hyperparameter%20Optimizer/MobileNet-V2/Dropout%20Rate.png" width="500"></td>
+    <td><img src="https://github.com/rudistiawannn/Ear-Disease-Clasification/blob/main/Hyperparameter%20Optimizer/MobileNet-V2/Learning%20Rate.png" width="500"></td>
+    <td><img src="https://github.com/rudistiawannn/Ear-Disease-Clasification/blob/main/Hyperparameter%20Optimizer/MobileNet-V2/Unit%20Dense.png" width="500"></td>
+  </tr>
+  <tr>
+    <td align="center">Dropout Rate</td>
+    <td align="center">Learning Rate</td>
+    <td align="center">Unit Dense</td>
+  </tr>
+</table>
+
 ### Xception Hyperparameters
 
 After 50 iterations with 10 epochs, the best hyperparameters for Xception were found as shown in Table
@@ -119,6 +132,19 @@ After 50 iterations with 10 epochs, the best hyperparameters for Xception were f
 | Unit Dense         | 209                         |
 | Dropout Rate       | 0.2                         |
 | Learning Rate      | 0.0018277161121728472       |
+
+<table>
+  <tr>
+    <td><img src="https://github.com/rudistiawannn/Ear-Disease-Clasification/blob/main/Hyperparameter%20Optimizer/Xception/Dropout%20Rate.png" width="500"></td>
+    <td><img src="https://github.com/rudistiawannn/Ear-Disease-Clasification/blob/main/Hyperparameter%20Optimizer/Xception/Learning%20Rate.png" width="500"></td>
+    <td><img src="https://github.com/rudistiawannn/Ear-Disease-Clasification/blob/main/Hyperparameter%20Optimizer/Xception/Unit%20Dense.png" width="500"></td>
+  </tr>
+  <tr>
+    <td align="center">Dropout Rate</td>
+    <td align="center">Learning Rate</td>
+    <td align="center">Unit Dense</td>
+  </tr>
+</table>
 
 ## Result Analysis
 
