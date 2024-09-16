@@ -17,3 +17,11 @@ By leveraging advanced machine learning techniques, this research seeks to addre
 
 # Dataset
 
+<table>
+  <tr>
+    <td><img src="https://drive.google.com/file/d/1Ybd42SnaXPwG3b9dq8e154woqk2Qj1z7/view?usp=drive_link" width="250" alt="Aerotitis Barutraoma"></td>
+  </tr>
+  <tr>
+    <td align="center">Aerotitis Barutraoma</td>
+  </tr>
+</table>
