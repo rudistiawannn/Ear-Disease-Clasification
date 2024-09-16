@@ -187,3 +187,12 @@ This study analyzes the effectiveness of MobileNet-V2 and Xception models in ear
 
 Based on the results of this study, future suggestions are to address dataset imbalance in model training by collecting additional data for minority classes or through a hierarchical approach by grouping similar classes for stepwise classification, for example, binary normal/abnormal classification followed by multi-class classification for specific disease types. Implement a sampling strategy using proven methods to divide the dataset into training, validation and testing sets to ensure balanced representation in each set.Continue the exploration of hyperparameter search on pre-trained models for more significant improvement in classification performance.
 
+## References
+- https://journal.uwhs.ac.id/index.php/jitk/article/view/363
+- http://journal.scientic.id/index.php/sciena/issue/view/8
+- http://apps.who.int/bookorders.
+- https://www.cell.com/heliyon/fulltext/S2405-8440(24)02617-3
+- http://3.8.6.95/ijcs/index.php/ijcs/article/view/3254
+- https://www.thelancet.com/article/S2352-3964(19)30431-1/fulltext
+- https://www.mdpi.com/2306-5354/10/8/979
+- https://keras.io/api/applications/
