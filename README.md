@@ -149,9 +149,9 @@ After 50 iterations with 10 epochs, the best hyperparameters for Xception were f
 ## Result Analysis
 
 The model testing applied three scenarios:
-  1.	Classification using a model with a dataset split ratio of 60:20:20, setting the hyperparameters for the classification layers (scenario 1)
-  2.	Testing by implementing hyperparameter search (scenario 2)
-  3.	Testing the model with a dataset split ratio of 80:20 (scenario 3)
+- Classification using a model with a dataset split ratio of 60:20:20, setting the hyperparameters for the classification layers (scenario 1)
+- Testing by implementing hyperparameter search (scenario 2)
+- Testing the model with a dataset split ratio of 80:20 (scenario 3)
 
 The best performance achieved by the model in each scenario is summarized in Table.
 
@@ -197,3 +197,11 @@ Based on the results of this study, future suggestions are to address dataset im
 - https://www.mdpi.com/2306-5354/10/8/979
 - https://keras.io/api/applications/
 - https://onlinelibrary.wiley.com/doi/abs/10.1002/lary.29302
+
+
+## Poster
+<table>
+  <tr>
+    <td><img src="https://github.com/rudistiawannn/Ear-Disease-Clasification/blob/main/Ear%20Disease%20Poster.png" width="700"></td>
+  </tr>
+</table>
