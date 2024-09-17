@@ -110,6 +110,19 @@ The hyperparameter search for MobileNet-V2 resulted in the best hyperparameters 
 | Dropout Rate       | 0.2                         |
 | Learning Rate      | 0.003103753471420176        |
 
+<table>
+  <tr>
+    <td><img src="https://github.com/rudistiawannn/Ear-Disease-Clasification/blob/main/Hyperparameter%20Optimizer/MobileNet-V2/Dropout%20Rate.png" width="500"></td>
+    <td><img src="https://github.com/rudistiawannn/Ear-Disease-Clasification/blob/main/Hyperparameter%20Optimizer/MobileNet-V2/Learning%20Rate.png" width="500"></td>
+    <td><img src="https://github.com/rudistiawannn/Ear-Disease-Clasification/blob/main/Hyperparameter%20Optimizer/MobileNet-V2/Unit%20Dense.png" width="500"></td>
+  </tr>
+  <tr>
+    <td align="center">Dropout Rate</td>
+    <td align="center">Learning Rate</td>
+    <td align="center">Unit Dense</td>
+  </tr>
+</table>
+
 ### Xception Hyperparameters
 
 After 50 iterations with 10 epochs, the best hyperparameters for Xception were found as shown in Table
@@ -119,6 +132,19 @@ After 50 iterations with 10 epochs, the best hyperparameters for Xception were f
 | Unit Dense         | 209                         |
 | Dropout Rate       | 0.2                         |
 | Learning Rate      | 0.0018277161121728472       |
+
+<table>
+  <tr>
+    <td><img src="https://github.com/rudistiawannn/Ear-Disease-Clasification/blob/main/Hyperparameter%20Optimizer/Xception/Dropout%20Rate.png" width="500"></td>
+    <td><img src="https://github.com/rudistiawannn/Ear-Disease-Clasification/blob/main/Hyperparameter%20Optimizer/Xception/Learning%20Rate.png" width="500"></td>
+    <td><img src="https://github.com/rudistiawannn/Ear-Disease-Clasification/blob/main/Hyperparameter%20Optimizer/Xception/Unit%20Dense.png" width="500"></td>
+  </tr>
+  <tr>
+    <td align="center">Dropout Rate</td>
+    <td align="center">Learning Rate</td>
+    <td align="center">Unit Dense</td>
+  </tr>
+</table>
 
 ## Result Analysis
 
@@ -157,7 +183,17 @@ A summary of the model testing against the test data is also provided in Table 4
 
 ## Conclusion
 
-This study analyzes the effectiveness of MobileNet-V2 and Xception models in ear disease classification, using various test scenarios.Initially, Xception performed better with a dataset ratio of 60:20:20, but after hyperparameter optimization using Bayesian optimizer, MobileNet-V2 surpassed Xception. Consistently, the 60:20:20 dataset sharing ratio proved more effective than 80:20 for both models. However, all scenarios faced significant challenges in the form of large gaps between training and validation performance, indicating generalization issues.Despite the high accuracy achieved, both models showed weaknesses in detecting specific disease classes, with a tendency to predict negatively for the majority of cases. The main factor behind this problem is dataset imbalance, where the models are only able to detect true positives in classes with a sufficiently large number of samples (more than 31 images).
+This study analyzes the effectiveness of MobileNet-V2 and Xception models in ear disease classification, using various test scenarios. Initially, Xception performed better with a dataset ratio of 60:20:20, but after hyperparameter optimization using Bayesian optimizer, MobileNet-V2 surpassed Xception. Consistently, the 60:20:20 dataset sharing ratio proved more effective than 80:20 for both models. However, all scenarios faced significant challenges in the form of large gaps between training and validation performance, indicating generalization issues. Despite the high accuracy achieved, both models showed weaknesses in detecting specific disease classes, with a tendency to predict negatively for the majority of cases. The main factor behind this problem is dataset imbalance, where the models are only able to detect true positives in classes with a sufficiently large number of samples (more than 31 images).
 
 Based on the results of this study, future suggestions are to address dataset imbalance in model training by collecting additional data for minority classes or through a hierarchical approach by grouping similar classes for stepwise classification, for example, binary normal/abnormal classification followed by multi-class classification for specific disease types. Implement a sampling strategy using proven methods to divide the dataset into training, validation and testing sets to ensure balanced representation in each set.Continue the exploration of hyperparameter search on pre-trained models for more significant improvement in classification performance.
 
+## References
+- https://journal.uwhs.ac.id/index.php/jitk/article/view/363
+- http://journal.scientic.id/index.php/sciena/issue/view/8
+- http://apps.who.int/bookorders.
+- https://www.cell.com/heliyon/fulltext/S2405-8440(24)02617-3
+- http://3.8.6.95/ijcs/index.php/ijcs/article/view/3254
+- https://www.thelancet.com/article/S2352-3964(19)30431-1/fulltext
+- https://www.mdpi.com/2306-5354/10/8/979
+- https://keras.io/api/applications/
+- https://onlinelibrary.wiley.com/doi/abs/10.1002/lary.29302
